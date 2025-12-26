@@ -46,47 +46,55 @@
             groupBox2.Size = new Size(335, 491);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
-            groupBox2.Text = "groupBox2";
             // 
             // startButton
             // 
             startButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            startButton.BackColor = Color.Teal;
+            startButton.Font = new Font("Arciform", 24F);
+            startButton.ForeColor = Color.Honeydew;
             startButton.Location = new Point(12, 383);
             startButton.Name = "startButton";
             startButton.Size = new Size(317, 78);
             startButton.TabIndex = 1;
             startButton.Text = "START";
-            startButton.UseVisualStyleBackColor = true;
+            startButton.UseVisualStyleBackColor = false;
             startButton.Click += startButton_Click_1;
             // 
             // currentLabel
             // 
             currentLabel.AutoSize = true;
+            currentLabel.Font = new Font("Arciform", 28F);
+            currentLabel.ForeColor = Color.Teal;
             currentLabel.Location = new Point(12, 35);
             currentLabel.Name = "currentLabel";
-            currentLabel.Size = new Size(50, 20);
+            currentLabel.Size = new Size(128, 58);
             currentLabel.TabIndex = 0;
             currentLabel.Text = "label1";
             // 
             // btnReturn
             // 
+            btnReturn.BackColor = Color.Teal;
+            btnReturn.Font = new Font("Arciform", 14F);
+            btnReturn.ForeColor = Color.Honeydew;
             btnReturn.Location = new Point(12, 12);
             btnReturn.Name = "btnReturn";
-            btnReturn.Size = new Size(151, 29);
+            btnReturn.Size = new Size(127, 95);
             btnReturn.TabIndex = 2;
             btnReturn.Text = "В главное меню";
-            btnReturn.UseVisualStyleBackColor = true;
+            btnReturn.UseVisualStyleBackColor = false;
             btnReturn.Click += btnReturn_Click;
             // 
             // SchultePage2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.AntiqueWhite;
             ClientSize = new Size(1182, 491);
             Controls.Add(btnReturn);
             Controls.Add(groupBox2);
             Name = "SchultePage2";
-            Text = "SchultePage";
+            Text = "Таблица Шульте";
             Load += SchultePage_Load;
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
